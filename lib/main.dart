@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sepatu_online/pages/cart_page.dart';
+import 'package:sepatu_online/pages/checkout_page.dart';
 import 'package:sepatu_online/pages/edit_profile_page.dart';
 import 'package:sepatu_online/pages/home/product_page.dart';
 import 'package:sepatu_online/pages/sign_in_page.dart';
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
         '/edit-profile': (context) => EditProfilepage(),
         '/product': (context) => ProductaPage(),
         '/cart': (context) => CartPage(),
+        '/checkout': (context) => CheckoutPage(),
       },
     );
   }
